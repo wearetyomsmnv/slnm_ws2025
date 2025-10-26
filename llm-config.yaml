@@ -1,0 +1,28 @@
+default_model: "ollama/qwen2.5:1.5b"
+models:
+  - model_name: openai-gpt4
+    model: gpt-4-1106-preview
+
+  - model_name: openai-gpt-4o
+    model: gpt-4o
+
+  - model_name: ollama-mistral-nemo
+    model: "ollama/mistral-nemo"
+
+  - model_name: ollama-local-llama3
+    model: "ollama/llama3"
+
+  - model_name: ollama-local-mistral
+    model: "ollama/mistral"
+
+  - model_name: ollama-local-llava
+    model: "ollama/llava:7b"
+
+  - model_name: ollama-qwen2.5-0.5b
+    model: "ollama/qwen2.5:0.5b"
+
+  - model_name: ollama-qwen2.5-1.5b
+    model: "ollama/qwen2.5:1.5b"
+
+  - model_name: hf-meta-llama
+    model: "huggingface/meta-llama/Llama-3.1-8B-Instruct"
